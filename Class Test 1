@@ -1,0 +1,33 @@
+<?PHP
+
+Class Sepeda  {
+
+    public $warna ;
+    public $jumlahRem ;
+    public $jumlahRoda ;
+
+    public function warna ($warna)
+{
+        $this->warna = $warna ;
+    }
+
+    public function jumlahRoda ($jumlahRoda) 
+    {      
+        $this->jumlahRoda = $jumlahRoda ;
+    }
+    public function jumlahRem ($jumlahRem)
+    {
+        $this->jumlahRem = $jumlahRem ;
+    }
+    public function tampilkan() {
+    echo "Sepeda dengan warna"
+         $this->warna . "memiliki" .
+         $this->jumlahRoda . "buah roda dan" .
+         $this->jumlahRem . "Rem" ;
+    }
+
+
+}
+
+
+
